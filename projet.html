@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Découvrez les projets réalisés par Mbaye Babacar Diane - Applications Web, Mobiles, APIs et Sécurité.">
+    <title>Mbaye Babacar Diane | Projets</title>
+    <!-- Google Fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&family=Roboto:wght@300;400;500;700&display=swap">
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <!-- AOS Animations -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/portfolio.css">
+</head>
+
+<body>
+    <!-- HEADER & NAVIGATION -->
+    <header class="class-header">
+        <a href="index.html" class="logo">MBAYE BABACAR <span>DIANE</span></a>
+        <nav class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="projet.html" class="active">Projets</a>
+            <a href="contact.html">Contact</a>
+            <a href="competences.html">Compétences</a>
+            <a href="experience.html">Expérience</a>
+        </nav>
+        <i class="fa-solid fa-bars hamburger" id="hamburger" aria-label="Menu de navigation"></i>
+    </header>
+
+    <!-- CONTENU PRINCIPAL -->
+    <main>
+        <section>
+            <!-- ENTÊTE DE PAGE -->
+            <div class="page-header" data-aos="fade-down" data-aos-duration="900">
+                <h1>MES <span>PROJETS</span></h1>
+                <p>
+                    Une sélection de réalisations récentes illustrant mes compétences en développement web, mobile, 
+                    conception d'API et cybersécurité.
+                </p>
+                <div class="header-divider"></div>
+            </div>
+
+            <!-- CONTENEUR DES PROJETS -->
+            <div class="projects-container">
+                <!-- BOUTONS DE FILTRAGE -->
+                <div class="project-filters" data-aos="fade-up" data-aos-duration="800">
+                    <button class="filter-btn active" data-filter="all">Tous</button>
+                    <button class="filter-btn" data-filter="web">Web</button>
+                    <button class="filter-btn" data-filter="mobile">Mobile</button>
+                    <button class="filter-btn" data-filter="backend">Backend & API</button>
+                    <button class="filter-btn" data-filter="security">Sécurité</button>
+                </div>
+
+                <!-- GRILLE DES PROJETS -->
+                <div class="projects-grid">
+                    <!-- PROJET 1 -->
+                    <div class="project-card" data-category="web" data-aos="fade-up" data-aos-delay="100">
+                        <div class="project-img-box">
+                            <span class="project-category-tag">Web App</span>
+                            <i class="fa-solid fa-cart-shopping project-icon"></i>
+                        </div>
+                        <div class="project-info">
+                            <h3>Plateforme E-Commerce Tech</h3>
+                            <p>
+                                Application e-commerce moderne et réactive intégrant un catalogue dynamique, 
+                                gestion de panier interactive, authentification sécurisée et passerelle de paiement.
+                            </p>
+                            <div class="project-tags">
+                                <span>React</span>
+                                <span>Node.js</span>
+                                <span>Express</span>
+                                <span>MongoDB</span>
+                                <span>Stripe</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://github.com" target="_blank" rel="noopener noreferrer">
+                                    <i class="fa-brands fa-github"></i> Code Source
+                                </a>
+                                <a href="contact.html">
+                                    <i class="fa-solid fa-arrow-up-right-from-square"></i> Détails
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- PROJET 2 -->
+                    <div class="project-card" data-category="web" data-aos="fade-up" data-aos-delay="200">
+                        <div class="project-img-box">
+                            <span class="project-category-tag">Dashboard</span>
+                            <i class="fa-solid fa-chart-line project-icon"></i>
+                        </div>
+                        <div class="project-info">
+                            <h3>Tableau de Bord Analytics SaaS</h3>
+                            <p>
+                                Interface d'administration temps réel avec visualisation de données avancées, 
+                                métriques de performance, graphiques modulaires et export de rapports détaillés.
+                            </p>
+                            <div class="project-tags">
+                                <span>JavaScript ES6+</span>
+                                <span>Chart.js</span>
+                                <span>REST API</span>
+                                <span>CSS Grid</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://github.com" target="_blank" rel="noopener noreferrer">
+                                    <i class="fa-brands fa-github"></i> Code Source
+                                </a>
+                                <a href="contact.html">
+                                    <i class="fa-solid fa-arrow-up-right-from-square"></i> Détails
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- PROJET 3 -->
+                    <div class="project-card" data-category="mobile" data-aos="fade-up" data-aos-delay="300">
+                        <div class="project-img-box">
+                            <span class="project-category-tag">Mobile</span>
+                            <i class="fa-solid fa-mobile-screen-button project-icon"></i>
+                        </div>
+                        <div class="project-info">
+                            <h3>Application Mobile TaskFlow</h3>
+                            <p>
+                                Solution mobile de gestion de tâches et de productivité avec synchronisation cloud instantanée, 
+                                rappels locaux intelligents et interface ergonomique en mode sombre.
+                            </p>
+                            <div class="project-tags">
+                                <span>React Native</span>
+                                <span>Firebase</span>
+                                <span>Redux Toolkit</span>
+                                <span>TypeScript</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://github.com" target="_blank" rel="noopener noreferrer">
+                                    <i class="fa-brands fa-github"></i> Code Source
+                                </a>
+                                <a href="contact.html">
+                                    <i class="fa-solid fa-arrow-up-right-from-square"></i> Détails
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- PROJET 4 -->
+                    <div class="project-card" data-category="backend" data-aos="fade-up" data-aos-delay="400">
+                        <div class="project-img-box">
+                            <span class="project-category-tag">Backend</span>
+                            <i class="fa-solid fa-server project-icon"></i>
+                        </div>
+                        <div class="project-info">
+                            <h3>API REST & Microservices Sécurisés</h3>
+                            <p>
+                                Architecture backend modulaire avec gestion fine des permissions (RBAC), 
+                                authentification JWT chiffrée, limitation de requêtes et documentation interactive Swagger.
+                            </p>
+                            <div class="project-tags">
+                                <span>Node.js</span>
+                                <span>PostgreSQL</span>
+                                <span>JWT</span>
+                                <span>Docker</span>
+                                <span>Swagger</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://github.com" target="_blank" rel="noopener noreferrer">
+                                    <i class="fa-brands fa-github"></i> Code Source
+                                </a>
+                                <a href="contact.html">
+                                    <i class="fa-solid fa-arrow-up-right-from-square"></i> Détails
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- PROJET 5 -->
+                    <div class="project-card" data-category="security" data-aos="fade-up" data-aos-delay="500">
+                        <div class="project-img-box">
+                            <span class="project-category-tag">Cybersécurité</span>
+                            <i class="fa-solid fa-shield-halved project-icon"></i>
+                        </div>
+                        <div class="project-info">
+                            <h3>Scanner d'Audits & Vulnérabilités Web</h3>
+                            <p>
+                                Script automatisé d'analyse des failles de sécurité courantes (en-têtes HTTP, injections, XSS), 
+                                vérification de conformité OWASP et génération de diagnostics synthétiques.
+                            </p>
+                            <div class="project-tags">
+                                <span>Python</span>
+                                <span>OWASP</span>
+                                <span>Linux</span>
+                                <span>Bash</span>
+                                <span>Security</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://github.com" target="_blank" rel="noopener noreferrer">
+                                    <i class="fa-brands fa-github"></i> Code Source
+                                </a>
+                                <a href="contact.html">
+                                    <i class="fa-solid fa-arrow-up-right-from-square"></i> Détails
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- PROJET 6 -->
+                    <div class="project-card" data-category="web" data-aos="fade-up" data-aos-delay="600">
+                        <div class="project-img-box">
+                            <span class="project-category-tag">Temps Réel</span>
+                            <i class="fa-solid fa-comments project-icon"></i>
+                        </div>
+                        <div class="project-info">
+                            <h3>Messagerie & Salon de Chat Temps Réel</h3>
+                            <p>
+                                Application de communication instantanée multi-salons avec WebSockets, 
+                                chiffrement des messages, accusés de réception et interface réactive fluide.
+                            </p>
+                            <div class="project-tags">
+                                <span>WebSockets</span>
+                                <span>Socket.io</span>
+                                <span>Express</span>
+                                <span>JavaScript</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://github.com" target="_blank" rel="noopener noreferrer">
+                                    <i class="fa-brands fa-github"></i> Code Source
+                                </a>
+                                <a href="contact.html">
+                                    <i class="fa-solid fa-arrow-up-right-from-square"></i> Détails
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="main-footer">
+        <div class="footer-content">
+            <div class="footer-brand">
+                <h4>MBAYE BABACAR DIANE</h4>
+                <p>Développeur passionné - Création d'expériences numériques d'exception.</p>
+            </div>
+            <div class="footer-socials">
+                <a href="https://github.com" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+                <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" aria-label="Twitter"><i class="fa-brands fa-x-twitter"></i></a>
+                <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Mbaye Babacar Diane. Tous droits réservés.</p>
+            <a href="#" class="back-to-top">
+                <span>Haut de page</span>
+                <i class="fa-solid fa-arrow-up"></i>
+            </a>
+        </div>
+    </footer>
+
+    <!-- SCRIPTS -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            offset: 50,
+            duration: 800,
+            once: true
+        });
+    </script>
+    <script src="js/portfolio.js"></script>
+</body>
+
+</html>

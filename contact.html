@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contactez Mbaye Babacar Diane pour vos projets de développement web, mobile ou opportunités de recrutement.">
+    <title>Mbaye Babacar Diane | Contact</title>
+    <!-- Google Fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&family=Roboto:wght@300;400;500;700&display=swap">
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <!-- AOS Animations -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/portfolio.css">
+</head>
+
+<body>
+    <!-- HEADER & NAVIGATION -->
+    <header class="class-header">
+        <a href="index.html" class="logo">MBAYE BABACAR <span>DIANE</span></a>
+        <nav class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="projet.html">Projets</a>
+            <a href="contact.html" class="active">Contact</a>
+            <a href="competences.html">Compétences</a>
+            <a href="experience.html">Expérience</a>
+        </nav>
+        <i class="fa-solid fa-bars hamburger" id="hamburger" aria-label="Menu de navigation"></i>
+    </header>
+
+    <!-- CONTENU PRINCIPAL -->
+    <main>
+        <section>
+            <!-- ENTÊTE DE PAGE -->
+            <div class="page-header" data-aos="fade-down" data-aos-duration="900">
+                <h1>ME <span>CONTACTER</span></h1>
+                <p>
+                    Un projet à concrétiser, une proposition d'embauche ou une question technique ? 
+                    Écrivez-moi et échangeons sur vos ambitions !
+                </p>
+                <div class="header-divider"></div>
+            </div>
+
+            <div class="contact-container">
+                <div class="contact-layout">
+                    <!-- PANNEAU D'INFORMATIONS DE CONTACT -->
+                    <div class="contact-info-panel" data-aos="fade-right" data-aos-delay="100">
+                        <!-- CARTE 1: EMAIL -->
+                        <div class="contact-card-box">
+                            <div class="icon-box">
+                                <i class="fa-solid fa-envelope"></i>
+                            </div>
+                            <div class="info-text">
+                                <h4>Adresse E-mail</h4>
+                                <a href="mailto:contact@mbayediane.dev">contact@mbayediane.dev</a>
+                            </div>
+                        </div>
+
+                        <!-- CARTE 2: DISPONIBILITÉ -->
+                        <div class="contact-card-box">
+                            <div class="icon-box">
+                                <i class="fa-solid fa-bolt"></i>
+                            </div>
+                            <div class="info-text">
+                                <h4>Statut de Disponibilité</h4>
+                                <p><span style="color: #4ade80;">●</span> Disponible pour Freelance & CDI</p>
+                            </div>
+                        </div>
+
+                        <!-- CARTE 3: LOCALISATION -->
+                        <div class="contact-card-box">
+                            <div class="icon-box">
+                                <i class="fa-solid fa-location-dot"></i>
+                            </div>
+                            <div class="info-text">
+                                <h4>Localisation</h4>
+                                <p>Dakar, Sénégal (Ouvert au télétravail international)</p>
+                            </div>
+                        </div>
+
+                        <!-- CARTE 4: RÉSEAUX SOCIAUX DIRECTS -->
+                        <div class="contact-card-box">
+                            <div class="icon-box">
+                                <i class="fa-solid fa-share-nodes"></i>
+                            </div>
+                            <div class="info-text">
+                                <h4>Réseaux Sociaux</h4>
+                                <p>Rejoignez-moi sur GitHub & LinkedIn</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- FORMULAIRE DE CONTACT INTERACTIF -->
+                    <div class="contact-form-panel" data-aos="fade-left" data-aos-delay="200">
+                        <h3>Envoyez-moi un message</h3>
+                        <p class="sub-text">Remplissez le formulaire ci-dessous et je vous répondrai dans les 24 heures.</p>
+
+                        <form id="contactForm">
+                            <div class="form-group">
+                                <label for="name">Votre Nom & Prénom *</label>
+                                <input type="text" id="name" name="name" placeholder="Ex: Jean Dupont" required>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="email">Votre Adresse E-mail *</label>
+                                <input type="email" id="email" name="email" placeholder="Ex: jean.dupont@email.com" required>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="subject">Sujet de votre message</label>
+                                <input type="text" id="subject" name="subject" placeholder="Ex: Proposition de projet Web ou Recrutement">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="message">Votre Message *</label>
+                                <textarea id="message" name="message" rows="5" placeholder="Décrivez votre projet, vos besoins ou vos questions..." required></textarea>
+                            </div>
+
+                            <button type="submit" class="btn" style="width: 100%;">
+                                <span>ENVOYER LE MESSAGE</span>
+                                <i class="fa-solid fa-paper-plane"></i>
+                            </button>
+
+                            <div id="formStatus" class="form-status"></div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="main-footer">
+        <div class="footer-content">
+            <div class="footer-brand">
+                <h4>MBAYE BABACAR DIANE</h4>
+                <p>Développeur passionné - Création d'expériences numériques d'exception.</p>
+            </div>
+            <div class="footer-socials">
+                <a href="https://github.com" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+                <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" aria-label="Twitter"><i class="fa-brands fa-x-twitter"></i></a>
+                <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Mbaye Babacar Diane. Tous droits réservés.</p>
+            <a href="#" class="back-to-top">
+                <span>Haut de page</span>
+                <i class="fa-solid fa-arrow-up"></i>
+            </a>
+        </div>
+    </footer>
+
+    <!-- SCRIPTS -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            offset: 50,
+            duration: 800,
+            once: true
+        });
+    </script>
+    <script src="js/portfolio.js"></script>
+</body>
+
+</html>
